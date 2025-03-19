@@ -16,3 +16,26 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+
+//
+
+
+Name: Kane Kriz
+
+Last Edited: 19 March 2025
+Feedback Request 1 Date: X
+
+
+//
+
+
+Response:
+
+Plagiarism Acknowledgement: I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+
+//
+
+
+Citations:
