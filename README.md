@@ -23,7 +23,7 @@ Add your answers to this markdown file.
 
 Name: Kane Kriz
 
-Last Edited: 19 March 2025
+Last Edited: 23 March 2025
 Feedback Request 1 Date: X
 
 
@@ -52,7 +52,8 @@ You could consider any known sorting algorithm from class that we have covered a
 You could then compare these known complexities with the claimed O(n) complexity of the secret algorithm.
 Then testing if such comparisons are remotely reasonable through comparing the runtimes of the two algorithms against the same inputted list.
 
-Theoretical argument portion - not complete yet
+Theoretical argument:
+The claim that the created sorting algorithm has a sorting time of O(n) given the context in the problem description could not possibly be correct. This is due to INCOMPLETE REASONING
 
 //
 
@@ -60,3 +61,4 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 
 Citations:
+https://www.geeksforgeeks.org/software-engineering-black-box-testing/
