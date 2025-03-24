@@ -52,8 +52,23 @@ You could consider any known sorting algorithm from class that we have covered a
 You could then compare these known complexities with the claimed O(n) complexity of the secret algorithm.
 Then testing if such comparisons are remotely reasonable through comparing the runtimes of the two algorithms against the same inputted list.
 
+
+
 Theoretical argument:
-The claim that the created sorting algorithm has a sorting time of O(n) given the context in the problem description could not possibly be correct. This is due to INCOMPLETE REASONING
+The claim that the created sorting algorithm has a sorting time of O(n) given the context in the problem description could not possibly be correct. 
+This is due to first informally considering known comparison based sorting algorithms (without extra conditions / information potentially associated with them to alter their necessary implementation, but then they potentially wouldnt be comparison based) 
+...having at best a worst case complexity of O(nlogn) across all algorithms meeting the conditions I just outlined.
+
+This demonstrates how truly revolutionary such an alogorithm would be, if even possible, making such an algorithms actual creation that much more farfetched.
+Formally, a O(n) complexity would further not be possible because of the number of permutation that inherently exist from a list.
+Consider a list of size n. The number of permutations of a list of size n is n!.
+As we are considering the worst case (and I suppose the general functionality / complexity of the algorithm), all n! possible permutations.
+Covering all n! possible permutations in a guaranteed at worst complexity of O(n) is impossible, as the number of elements scaling with O(n) linearly versus the scaling of n! compares in the worst case do not allign.
+
+As we know, a best case of O(n) for a sorting algorithm is a simple reality that can occur. 
+However, the second an algorithm begins to claim for a trraditional comparison based algorithm that O(n) is guaranteed, that is where problems arise, as explained above.
+
+
 
 //
 
@@ -62,3 +77,4 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 Citations:
 https://www.geeksforgeeks.org/software-engineering-black-box-testing/
+https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
