@@ -23,7 +23,8 @@ Add your answers to this markdown file.
 
 Name: Kane Kriz
 
-Last Edited: 23 March 2025
+Start Date: 23 March 2025
+Last Edited: 24 March 2025
 Feedback Request 1 Date: X
 
 
@@ -65,8 +66,8 @@ Consider a list of size n. The number of permutations of a list of size n is n!.
 As we are considering the worst case (and I suppose the general functionality / complexity of the algorithm), all n! possible permutations.
 Covering all n! possible permutations in a guaranteed at worst complexity of O(n) is impossible, as the number of elements scaling with O(n) linearly versus the scaling of n! compares in the worst case do not allign.
 
-As we know, a best case of O(n) for a sorting algorithm is a simple reality that can occur. 
-However, the second an algorithm begins to claim for a trraditional comparison based algorithm that O(n) is guaranteed, that is where problems arise, as explained above.
+As we know, a best case of O(n) for a sorting algorithm is a simple reality that can occur depending on something such as a sorted list being provided to a particular algorithm (provided such an algorithm responds well to an already sorted list). 
+However, the moment an algorithm begins to claim for a trraditional comparison based algorithm that O(n) is guaranteed, that is where problems arise, as explained above.
 
 
 
@@ -76,5 +77,5 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 
 Citations:
-https://www.geeksforgeeks.org/software-engineering-black-box-testing/
-https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
+“Software Engineering | Black Box Testing - GeeksforGeeks.” GeeksforGeeks, 25 May 2018, www.geeksforgeeks.org/software-engineering-black-box-testing/.
+“Time Complexities of All Sorting Algorithms.” GeeksforGeeks, 10 Jan. 2023, www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/.
