@@ -20,12 +20,13 @@ Add your answers to this markdown file.
 
 //
 
-
 Name: Kane Kriz
 
 Start Date: 23 March 2025
+
 Last Edited: 24 March 2025
-Feedback Request 1 Date: X
+
+Feedback Request 1 Date: 24 March 2025
 
 
 //
@@ -56,16 +57,20 @@ Then testing if such comparisons are remotely reasonable through comparing the r
 
 
 Theoretical argument:
-The claim that the created sorting algorithm has a sorting time of O(n) given the context in the problem description could not possibly be correct. 
+The claim that the created sorting algorithm has a sorting time of O(n) given the context in the problem description could not possibly be theoretically correct. 
 This is due to first informally considering known comparison based sorting algorithms (without extra conditions / information potentially associated with them to alter their necessary implementation, but then they potentially wouldnt be comparison based) 
-...having at best a worst case complexity of O(nlogn) across all algorithms meeting the conditions I just outlined.
+...having at best a worst case complexity of O(nlogn) across all algorithms meeting the conditions of a standard comparison based algorithm.
 
 This demonstrates how truly revolutionary such an alogorithm would be, if even possible, making such an algorithms actual creation that much more farfetched.
-Formally, a O(n) complexity would further not be possible because of the number of permutation that inherently exist from a list.
+I suppose bringing that up isn't exactly theoretical, but I will keep it in because it is just another layer of reasoning to this being unlikely.
+
+Formally, a O(n) complexity would further not be possible because of the number of permutations that inherently exist from a list.
 Consider a list of size n. The number of permutations of a list of size n is n!.
 As we are considering the worst case (and I suppose the general functionality / complexity of the algorithm), all n! possible permutations.
 Covering all n! possible permutations in a guaranteed at worst complexity of O(n) is impossible, as the number of elements scaling with O(n) linearly versus the scaling of n! compares in the worst case do not allign.
+The best case for a worst-case outcome of a standard sorting algorithm (covering all n! permutations) is at best O(nlog(n)), visible when considering the worst case complexities of heap and merge sort, as examples.
 
+Any algorithm that magically could be able to reach a true worst case O(n) complexity would thus have to not truly be a two-element comparison algorithm in truth, as it violates this established best case of worst cases.
 As we know, a best case of O(n) for a sorting algorithm is a simple reality that can occur depending on something such as a sorted list being provided to a particular algorithm (provided such an algorithm responds well to an already sorted list). 
 However, the moment an algorithm begins to claim for a trraditional comparison based algorithm that O(n) is guaranteed, that is where problems arise, as explained above.
 
